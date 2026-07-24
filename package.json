@@ -1,0 +1,21 @@
+{
+  "name": "zero-latency-edge-rag-vector-db",
+  "version": "1.0.0",
+  "description": "Zero-Latency Client-Side Vector Database using Web Workers, IndexedDB, and SharedArrayBuffer",
+  "main": "quantize.ts",
+  "scripts": {
+    "quantize": "ts-node quantize.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@webgpu/types": "^0.1.71",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/three": "^0.185.1",
+    "docx": "^9.7.1",
+    "three": "^0.185.1"
+  }
+}
